@@ -1,0 +1,36 @@
+# ===================================
+#  IGNORAR ARCHIVOS SENSIBLES
+# ===================================
+
+# Configuración con claves de API
+config.js
+
+# Variables de entorno
+.env
+.env.local
+.env.production
+
+# Dependencias de Node.js (si usas npm/yarn)
+node_modules/
+
+# Archivos de sistema
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
+
+# Archivos temporales
+*.tmp
+*.temp
+
+# Archivos de IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Archivos de producción
+dist/
+build/
