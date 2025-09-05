@@ -1,11 +1,4 @@
- // ==========================
-    //  Parse.init — Back4App
-    // ==========================
-    // Las claves ahora se cargan desde config.js (no incluido en GitHub)
-    // Para configurar:
-    // 1) Copia config.example.js a config.js
-    // 2) Edita config.js con tus claves reales de Back4App
-    // 3) config.js está en .gitignore y no se subirá a GitHub
+
     
     Parse.initialize(CONFIG.PARSE_APP_ID, CONFIG.PARSE_JS_KEY);
     Parse.serverURL = CONFIG.PARSE_SERVER_URL;
